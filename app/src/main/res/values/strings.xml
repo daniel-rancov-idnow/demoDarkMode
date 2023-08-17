@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">demohostapp</string>
+    <string name="please_enter_your_ident_id_to_start_the_identification">Please enter your Ident-ID to start the Identification</string>
+    <string name="start">Start</string>
+</resources>

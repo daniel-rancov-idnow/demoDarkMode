@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        google()
+        maven { url 'https://jitpack.io' }
+        jcenter()
+        maven {
+            url "https://raw.githubusercontent.com/idnow/de.idnow.android/master"
+        }
+    }
+}
+rootProject.name = "demohostapp"
+include ':app'

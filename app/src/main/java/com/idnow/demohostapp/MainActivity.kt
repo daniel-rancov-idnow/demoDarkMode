@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+//        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
         setContentView(R.layout.activity_main)
         checkForRuntimePermissions()
@@ -98,4 +98,9 @@ class MainActivity : AppCompatActivity() {
             return
         }
     }
+}
+
+
+fun AppCompatDelegate.logNightMode() {
+
 }
